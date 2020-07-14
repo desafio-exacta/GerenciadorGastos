@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gastos</string>
+    <string name="title">Gerenciador de Gastos</string>
+    <string name="detalhe">Detalhe do Gasto</string>
+    <string name="adicionar">Adicionar do Gasto</string>
+    <string name="campos_obrigatorios">Campos obrigatórios!</string>
+</resources>
