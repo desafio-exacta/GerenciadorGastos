@@ -42,9 +42,7 @@ class GastoListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as AppCompatActivity).supportActionBar?.title = resources.getString(R.string.title)
-
-        if(gastos.count() > 0) bind()
-        else buscarGastos()
+        buscarGastos()
 
         swipe_refresh_layout.setOnRefreshListener {
             gastos.clear()
